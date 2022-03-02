@@ -180,7 +180,7 @@ const App = () => {
             originWhitelist={['*']}
             ref={webRef}
             source={{
-              uri: 'https://v3rc.explorug.com/build/explorug.html?page=ruglife&pageview=app', //'https://v3.explorug.com/explorug.html?page=masterloom&pageview=app',
+              uri: 'https://v3rc.explorug.com/build/explorug.html?page=masterloom&pageview=app&customclass=masterloom-app', //'https://v3.explorug.com/explorug.html?page=masterloom&pageview=app',
             }}
             style={{height: iframeHgt, width: iframeWid}}
             injectedJavaScriptBeforeContentLoaded={runFirst}
