@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>Master Loom</string>
+	<string>Explorug</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -49,6 +49,17 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+		<!-- For photo capture: -->
+	<key>NSCameraUsageDescription</key>
+	<string>Take pictures for certain activities</string>
+	
+	<!-- For gallery selection: -->
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Select pictures for certain activities</string>
+
+	<!-- Save to gallery: -->
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Save pictures for certain activities.</string>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
 </dict>
